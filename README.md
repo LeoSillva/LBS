@@ -3,5 +3,5 @@ Lingua Brasileira de Sinais - LBS
 ________________________________________
 
 PROGRAMADORES:
-Leonardo Carlos
+Leonardo Carlos <br<
 Thiago Arouche
