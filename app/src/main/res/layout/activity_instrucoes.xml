@@ -14,6 +14,9 @@
         android:text="-Ao ultilizar a letra 'Ç' é como se ele fosse o C e com uma vibraçao."
         android:typeface="serif"
         android:visibility="visible"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,6 +28,9 @@
         android:text="ALGUMAS OBSERVAÇÕES"
         android:textSize="18sp"
         android:typeface="serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,6 +42,9 @@
         android:layout_marginTop="16dp"
         android:text="-As letras H e K sao bem parecidas.A letra H é apenas virar,e a letra K é avançar para cima."
         android:typeface="serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -46,6 +55,9 @@
         android:layout_marginTop="18dp"
         android:text="-As letras F e T  são bem parecidas que geralmente confunde. Lembre-se que o dedo polegar está fora o do indicador(Letra F) e a outra pelo contrario o dedo polegar está dentro do indicador(Letra T)."
         android:typeface="serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -56,6 +68,9 @@
         android:layout_marginTop="17dp"
         android:text="-O movimento da letra Z é o msm movimento que o Zorro fazia em seus adversários."
         android:typeface="serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -66,6 +81,9 @@
         android:layout_marginTop="16dp"
         android:text='-Para fazer duas letras idênticas ("rr","ss","cc")deve arrastar um pouco ao lado de fora( Exceto o "zz" que repete na escrita.'
         android:typeface="serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
