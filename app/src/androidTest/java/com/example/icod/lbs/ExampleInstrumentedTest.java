@@ -1,4 +1,4 @@
-package com.example.thiago.librart;
+package com.example.icod.lbs;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

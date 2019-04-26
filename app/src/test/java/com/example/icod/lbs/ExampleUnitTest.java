@@ -1,4 +1,4 @@
-package com.example.thiago.librart;
+package com.example.icod.lbs;
 
 import org.junit.Test;
 
