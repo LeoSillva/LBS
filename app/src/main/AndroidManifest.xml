@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/iconapp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PrincipalActivity"></activity>
+        <activity android:name=".NumeraisActivity"></activity>
+        <activity android:name=".PrincipalActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

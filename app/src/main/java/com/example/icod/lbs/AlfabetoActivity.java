@@ -13,7 +13,7 @@ public class AlfabetoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aprenda);
+        setContentView(R.layout.activity_alfabeto);
 
         this.mViewHolder.imgResultado = findViewById(R.id.imgResultado);
         this.mViewHolder.btnQ = findViewById(R.id.btnQ);
