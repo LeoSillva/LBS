@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class AprendaActivity extends AppCompatActivity {
+public class AlfabetoActivity extends AppCompatActivity {
 
     private ViewHolder mViewHolder = new ViewHolder();
 
