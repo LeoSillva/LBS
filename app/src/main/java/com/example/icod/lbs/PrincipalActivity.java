@@ -14,7 +14,7 @@ public class PrincipalActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_principal);
 
-        //Chama a activity Instruções atraves do ButtonInstrucoes
+        //CHAMA A ACTIVITY COM INSTRUÇÕES
         Button chamarButton = (Button) findViewById(R.id.buttonInstrucoes);
         chamarButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -33,6 +33,15 @@ public class PrincipalActivity extends AppCompatActivity {
             }
         });
 
+        //CHAMAR O NUMERAIS PELO BUTTON
+        Button chamarButtonNumerais = (Button) findViewById(R.id.buttonNumerais);
+        chamarButtonNumerais.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), NumeraisActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
