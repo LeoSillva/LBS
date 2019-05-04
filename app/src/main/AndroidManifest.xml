@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/iconapp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NumeraisActivity"></activity>
+        <activity android:name=".DicionarioActivity"></activity>
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".NumeraisActivity" />
         <activity android:name=".PrincipalActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
