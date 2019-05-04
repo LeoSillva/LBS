@@ -1,10 +1,15 @@
 package com.example.icod.lbs;
 
+import android.content.Context;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.style.BackgroundColorSpan;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class AlfabetoActivity extends AppCompatActivity {
 
@@ -49,10 +54,13 @@ public class AlfabetoActivity extends AppCompatActivity {
 
 
         this.mViewHolder.btnQ.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View view) {
                 mViewHolder.imgResultado.setImageResource(R.drawable.q);
                 mViewHolder.imgResultado.setVisibility(View.VISIBLE);
+                //Button botao = (Button) findViewById(R.id.btnQ);
+                //botao.setBackgroundResource(R.color.colorPrimary);
             }
         });
 
