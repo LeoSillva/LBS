@@ -38,8 +38,6 @@ public class NumeraisActivity extends AppCompatActivity {
             public void onClick(View view) {
                 mViewHolder.imageNumerais.setImageResource(R.drawable.0);
                 mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
-                //Button botao = (Button) findViewById(R.id.btnQ);
-                //botao.setBackgroundResource(R.color.colorPrimary);
             }
         });
 
