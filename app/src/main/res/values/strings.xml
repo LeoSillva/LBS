@@ -6,4 +6,14 @@
     <string name="ButtonQuiz">QUIZ</string>
     <string name="ButtonNumerais">NUMERAIS</string>
     <string name="ButtonInstrucoes">INSTRUÇÕES</string>
+    <string name="ButtonZero">0</string>
+    <string name="ButtonUm">1</string>
+    <string name="ButtonDois">2</string>
+    <string name="ButtonTres">3</string>
+    <string name="ButtonQuatro">4</string>
+    <string name="ButtonCinco">5</string>
+    <string name="ButtonSei">6</string>
+    <string name="ButtonSete">7</string>
+    <string name="ButtonOito">8</string>
+    <string name="ButtonNove">9</string>
 </resources>
