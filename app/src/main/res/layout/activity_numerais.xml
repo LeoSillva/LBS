@@ -17,10 +17,10 @@
         <ImageView
             android:id="@+id/imageNumerais"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/a"
+            android:layout_height="178dp"
             android:contentDescription="TODO"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            app:srcCompat="@drawable/a" />
     </LinearLayout>
 
     <LinearLayout
@@ -150,7 +150,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
@@ -158,11 +158,11 @@
             android:id="@+id/buttonNove"
             android:layout_width="125dp"
             android:layout_height="70dp"
-            android:text="9"
+            android:layout_marginLeft="140dp"
             android:background="@color/colorPrimary"
+            android:text="9"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:layout_marginLeft="140dp"/>
+            android:textSize="20dp" />
     </LinearLayout>
 
 </LinearLayout>
