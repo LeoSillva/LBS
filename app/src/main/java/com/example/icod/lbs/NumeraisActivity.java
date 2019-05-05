@@ -24,7 +24,7 @@ public class NumeraisActivity extends AppCompatActivity {
         this.mViewHolder.buttonUm = findViewById(R.id.buttonUm);
         this.mViewHolder.buttonDois = findViewById(R.id.buttonDois);
         this.mViewHolder.buttonTres = findViewById(R.id.buttonTres);
-        this.mViewHolder.buttonQuatro= findViewById(R.id.buttonQuatro);
+        this.mViewHolder.buttonQuatro = findViewById(R.id.buttonQuatro);
         this.mViewHolder.buttonCinco = findViewById(R.id.buttonCinco);
         this.mViewHolder.buttonSeis = findViewById(R.id.buttonSeis);
         this.mViewHolder.buttonSete = findViewById(R.id.buttonSete);
@@ -36,14 +36,95 @@ public class NumeraisActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View view) {
-                mViewHolder.imageNumerais.setImageResource(R.drawable.0);
+                mViewHolder.imageNumerais.setImageResource(R.drawable.zero);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonUm.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.um);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonDois.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.dois);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonTres.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.tres);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonQuatro.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.quatro);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonCinco.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.cinco);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonSeis.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.seis);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonSete.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.sete);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonOito.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.oito);
+                mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
+            }
+        });
+
+        this.mViewHolder.buttonNove.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.M)
+            @Override
+            public void onClick(View view) {
+                mViewHolder.imageNumerais.setImageResource(R.drawable.nove);
                 mViewHolder.imageNumerais.setVisibility(View.VISIBLE);
             }
         });
 
     }
 
-    private static class ViewHolder{
+    private static class ViewHolder {
         ImageView imageNumerais;
         Button buttonZero;
         Button buttonUm;
@@ -55,3 +136,5 @@ public class NumeraisActivity extends AppCompatActivity {
         Button buttonSete;
         Button buttonOito;
         Button buttonNove;
+    }
+}
