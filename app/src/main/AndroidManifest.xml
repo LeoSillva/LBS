@@ -12,7 +12,7 @@
         <activity android:name=".DicionarioActivity">
         </activity>
         <activity android:name=".QuizActivity" />
-        <activity android:name=".NumeraisActivity" />
+        <activity android:name=".NumeraisActivity" android:screenOrientation="portrait" />
         <activity android:name=".PrincipalActivity" android:screenOrientation="portrait"/>
         <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".InstrucoesActivity" />
-        <activity android:name=".AlfabetoActivity" />
+        <activity android:name=".AlfabetoActivity" android:screenOrientation="portrait"/>
     </application>
 
 
