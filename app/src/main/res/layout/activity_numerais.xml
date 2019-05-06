@@ -35,10 +35,11 @@
             android:layout_height="70dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:text="0"
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            />
 
         <Button
             android:id="@+id/buttonUm"
@@ -47,7 +48,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:text="1"
             android:textColor="#fff"
             android:textSize="20dp" />
@@ -58,7 +59,7 @@
             android:layout_height="70dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:text="2"
             android:textColor="#fff"
             android:textSize="20dp" />
@@ -77,7 +78,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:text="3"
             android:textColor="#fff"
             android:textSize="20dp" />
@@ -88,7 +89,7 @@
             android:layout_height="70dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:text="4"
             android:textColor="#fff"
             android:textSize="20dp" />
@@ -99,7 +100,7 @@
             android:layout_height="70dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:text="5"
             android:textColor="#fff"
             android:textSize="20dp" />
@@ -118,7 +119,7 @@
             android:layout_height="70dp"
             android:layout_weight="1"
             android:text="6"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:textColor="#fff"
             android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
@@ -129,7 +130,7 @@
             android:layout_height="70dp"
             android:layout_weight="1"
             android:text="7"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:textColor="#fff"
             android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
@@ -140,7 +141,7 @@
             android:layout_height="70dp"
             android:layout_weight="1"
             android:text="8"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/botao_customizado"
             android:textColor="#fff"
             android:textSize="20dp"
             android:layout_marginLeft="10dp"
@@ -152,14 +153,15 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonNove"
             android:layout_width="125dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="140dp"
-            android:background="@color/colorPrimary"
+            android:layout_marginLeft="143dp"
+            android:layout_weight=""
+            android:background="@drawable/botao_customizado"
             android:text="9"
             android:textColor="#fff"
             android:textSize="20dp" />
