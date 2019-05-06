@@ -1,4 +1,5 @@
 # LBS - Lingua Brasileira de Sinais
+Versão 1.0 Beta 
 
 
 <strong><h2>Funcionalidades</h2></strong>
@@ -14,4 +15,3 @@
 <li>Thiago Arouche - thiagoarouchepr@hotmail.com</li>
 </ul>
 
-Versão 1.0 Beta 
