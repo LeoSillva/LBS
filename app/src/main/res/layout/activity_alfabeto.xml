@@ -11,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="140dp"
         android:orientation="vertical">
 
         <ImageView
@@ -33,7 +33,8 @@
             android:id="@+id/btnA"
             android:layout_width="55dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="A"
             android:textColor="#fff"
@@ -42,6 +43,7 @@
         <Button
             android:id="@+id/btnB"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -52,6 +54,7 @@
         <Button
             android:id="@+id/btnC"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -62,8 +65,10 @@
         <Button
             android:id="@+id/btnD"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="D"
             android:textColor="#fff"
@@ -79,8 +84,9 @@
         <Button
             android:id="@+id/btnE"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="E"
             android:textColor="#fff"
@@ -89,6 +95,7 @@
         <Button
             android:id="@+id/btnF"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -99,6 +106,7 @@
         <Button
             android:id="@+id/btnG"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -109,8 +117,10 @@
         <Button
             android:id="@+id/btnH"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="H"
             android:textColor="#fff"
@@ -126,8 +136,9 @@
         <Button
             android:id="@+id/btnI"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="I"
             android:textColor="#fff"
@@ -136,6 +147,7 @@
         <Button
             android:id="@+id/btnJ"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -146,6 +158,7 @@
         <Button
             android:id="@+id/btnK"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -156,8 +169,10 @@
         <Button
             android:id="@+id/btnL"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="L"
             android:textColor="#fff"
@@ -173,8 +188,9 @@
         <Button
             android:id="@+id/btnM"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="M"
             android:textColor="#fff"
@@ -183,6 +199,7 @@
         <Button
             android:id="@+id/btnN"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -193,6 +210,7 @@
         <Button
             android:id="@+id/btnO"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -203,8 +221,10 @@
         <Button
             android:id="@+id/btnP"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="P"
             android:textColor="#fff"
@@ -220,8 +240,9 @@
         <Button
             android:id="@+id/btnQ"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="Q"
             android:textColor="#fff"
@@ -230,6 +251,7 @@
         <Button
             android:id="@+id/btnR"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -240,6 +262,7 @@
         <Button
             android:id="@+id/btnS"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -250,8 +273,10 @@
         <Button
             android:id="@+id/btnT"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="T"
             android:textColor="#fff"
@@ -267,8 +292,9 @@
         <Button
             android:id="@+id/btnU"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="U"
             android:textColor="#fff"
@@ -277,6 +303,7 @@
         <Button
             android:id="@+id/btnV"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -287,6 +314,7 @@
         <Button
             android:id="@+id/btnW"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@drawable/botao_customizado3"
@@ -297,8 +325,10 @@
         <Button
             android:id="@+id/btnX"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/botao_customizado3"
             android:text="X"
             android:textColor="#fff"
@@ -315,8 +345,9 @@
         <Button
             android:id="@+id/btnY"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="135dp"
+            android:layout_marginLeft="110dp"
             android:background="@drawable/botao_customizado3"
             android:text="Y"
             android:textColor="#fff"
@@ -325,8 +356,10 @@
         <Button
             android:id="@+id/btnZ"
             android:layout_width="55dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="110dp"
             android:background="@drawable/botao_customizado3"
             android:text="Z"
             android:textColor="#fff"
