@@ -157,10 +157,11 @@
 
         <Button
             android:id="@+id/buttonNove"
-            android:layout_width="125dp"
+            android:layout_width="135dp"
+            android:layout_weight="1"
             android:layout_height="70dp"
-            android:layout_marginLeft="143dp"
-            android:layout_weight="0"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
             android:background="@drawable/botao_customizado1"
             android:text="9"
             android:textColor="#fff"
