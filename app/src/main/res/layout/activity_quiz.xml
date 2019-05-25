@@ -38,7 +38,7 @@
         android:layout_gravity="center"/>
 
     <TextView
-        android:text="Adivinhe o País"
+        android:text="Adivinhe a Frase"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:textSize="20sp"

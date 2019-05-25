@@ -9,21 +9,30 @@
         android:roundIcon="@mipmap/iconapp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DicionarioActivity">
-        </activity>
+        <activity android:name=".EscolherQuizActivity"></activity>
+        <activity android:name=".DicionarioActivity"></activity>
         <activity android:name=".QuizActivity" />
-        <activity android:name=".NumeraisActivity" android:screenOrientation="portrait" />
-        <activity android:name=".PrincipalActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+        <activity
+            android:name=".NumeraisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrincipalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InstrucoesActivity" android:screenOrientation="portrait" />
-        <activity android:name=".AlfabetoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".InstrucoesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlfabetoActivity"
+            android:screenOrientation="portrait" />
     </application>
-
 
 </manifest>
