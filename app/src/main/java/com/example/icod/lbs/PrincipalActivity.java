@@ -50,7 +50,7 @@ public class PrincipalActivity extends AppCompatActivity {
         chamarButtonQuiz.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), QuizActivity.class);
+                Intent intent = new Intent(getApplicationContext(), EscolherQuizActivity.class);
                 startActivity(intent);
             }
         });

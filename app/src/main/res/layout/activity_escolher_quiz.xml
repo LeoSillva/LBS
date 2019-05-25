@@ -5,8 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
     tools:context=".EscolherQuizActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="30dp"
+        android:text="Escolha o Quiz"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,17 +44,26 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonQuizLetras"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Quiz Letras"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:background="@drawable/botao_customizado2"
+            android:layout_marginLeft="15dp"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Quiz Frases"
+            android:background="@drawable/botao_customizado2"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"/>
     </LinearLayout>
 </LinearLayout>
