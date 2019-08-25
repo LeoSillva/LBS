@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".QuizActivity"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/gradient">
 
     <TextView
         android:text="Teste de 10 Perguntas"
