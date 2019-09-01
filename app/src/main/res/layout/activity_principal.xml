@@ -15,20 +15,20 @@
 
         <Button
             android:id="@+id/buttonAlfabeto"
-            android:layout_width="50dp"
-            android:layout_height="100dp"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="100dp"
             android:layout_weight="1"
             android:background="@drawable/botao_customizado2"
             android:text="@string/ButtonAlfabeto"
             android:textColor="#fff"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/buttonNumerais"
-            android:layout_width="50dp"
-            android:layout_height="100dp"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="100dp"
             android:layout_marginRight="10dp"
@@ -36,7 +36,7 @@
             android:background="@drawable/botao_customizado2"
             android:text="@string/ButtonNumerais"
             android:textColor="#fff"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
     </LinearLayout>
 
@@ -47,26 +47,26 @@
 
         <Button
             android:id="@+id/buttonDicionario"
-            android:layout_width="50dp"
-            android:layout_height="100dp"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:background="@drawable/botao_customizado2"
             android:text="@string/ButtonDicionario"
             android:textColor="#fff"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/buttonQuiz"
-            android:layout_width="50dp"
-            android:layout_height="100dp"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/botao_customizado2"
             android:text="@string/ButtonQuiz"
             android:textColor="#fff"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
     </LinearLayout>
 
@@ -87,7 +87,7 @@
             android:background="@drawable/botao_customizado1"
             android:text="@string/ButtonInstrucoes"
             android:textColor="#fff"
-            android:textSize="20sp" />
+            android:textSize="20dp" />
     </LinearLayout>
 
 </LinearLayout>

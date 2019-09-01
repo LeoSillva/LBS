@@ -30,28 +30,28 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="328dp"
+                android:layout_width="380dp"
                 android:layout_height="62dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Ao ultilizar a letra 'Ç' é como se ele fosse o C e com uma vibraçao."
+                android:text="Ao ultilizar a letra 'Ç' é como se ele fosse o C com uma vibraçao."
                 android:textColor="#fff"
                 android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="326dp"
+                android:layout_width="381dp"
                 android:layout_height="66dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="As letras H e K sao bem parecidas.A letra H é apenas virar,e a letra K é avançar para cima."
+                android:text="As letras H e K sao bem parecidas. A letra H é apenas virar, e a letra K é avançar para cima."
                 android:textColor="#fff"
                 android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="329dp"
+                android:layout_width="380dp"
                 android:layout_height="131dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
@@ -61,21 +61,21 @@
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="328dp"
+                android:layout_width="379dp"
                 android:layout_height="74dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="O movimento da letra Z é o msm movimento que o Zorro fazia em seus adversários."
+                android:text="O movimento da letra Z é o mesmo movimento que o Zorro fazia em seus adversários."
                 android:textColor="#fff"
                 android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="326dp"
+                android:layout_width="379dp"
                 android:layout_height="94dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text='Para fazer duas letras idênticas ("rr","ss","cc")deve arrastar um pouco ao lado de fora( Exceto o "zz" que repete na escrita.'
+                android:text='Para fazer duas letras idênticas ("rr","ss","cc") deve arrastar um pouco ao lado de fora. Exceto o "zz" que repete na escrita.'
                 android:textColor="#fff"
                 android:textSize="18dp" />
         </LinearLayout>
