@@ -15,7 +15,7 @@
         android:layout_marginLeft="95dp"
         android:layout_marginTop="30dp"
         android:text="Escolha o Quiz"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#FFF"
         android:textSize="30dp" />
 
     <LinearLayout

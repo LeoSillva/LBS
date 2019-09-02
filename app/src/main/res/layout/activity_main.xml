@@ -10,7 +10,15 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="493dp"
+        android:layout_height="547dp"
         app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvido por Leonardo Balbino"
+        android:textSize="20sp"
+        android:layout_margin="45dp"/>
 </LinearLayout>
